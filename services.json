@@ -1,0 +1,431 @@
+{
+  "categories": [
+    {
+      "name": "Šišanje i feniranje",
+      "services": [
+        {
+          "id": "sisanje_kratka",
+          "name": "Žensko šišanje - kratka kosa",
+          "duration": 30,
+          "price": 800,
+          "keywords": ["šišanje", "kratka kosa", "kratko", "sisanje"]
+        },
+        {
+          "id": "sisanje_duga",
+          "name": "Žensko šišanje - duga kosa",
+          "duration": 30,
+          "price": 1000,
+          "keywords": ["šišanje", "duga kosa", "dugo", "sisanje"]
+        },
+        {
+          "id": "feniranje_kratka",
+          "name": "Feniranje na ravno - kratka kosa",
+          "duration": 30,
+          "price": 800,
+          "keywords": ["feniranje", "ravno", "kratka", "fen"]
+        },
+        {
+          "id": "feniranje_duga",
+          "name": "Feniranje na ravno - duga kosa",
+          "duration": 40,
+          "price": 1000,
+          "keywords": ["feniranje", "ravno", "duga", "fen"]
+        },
+        {
+          "id": "feniranje_ekstra",
+          "name": "Feniranje na ravno - ekstra duga kosa",
+          "duration": 45,
+          "price": 1200,
+          "keywords": ["feniranje", "ravno", "ekstra duga", "fen"]
+        }
+      ]
+    },
+    {
+      "name": "Farbanje i pramenovi",
+      "services": [
+        {
+          "id": "usluzno_farbanje",
+          "name": "Uslužno farbanje + feniranje - sve dužine kose",
+          "duration": 60,
+          "price": 1300,
+          "keywords": ["farbanje", "farba", "boja", "bojenje"]
+        },
+        {
+          "id": "satiranje_kratka",
+          "name": "Šatiranje - kratka kosa",
+          "duration": 120,
+          "price": 7000,
+          "keywords": ["šatiranje", "satiranje", "pramenovi", "kratka"]
+        },
+        {
+          "id": "satiranje_duga",
+          "name": "Šatiranje - duga kosa",
+          "duration": 120,
+          "price": 10350,
+          "keywords": ["šatiranje", "satiranje", "pramenovi", "duga"]
+        },
+        {
+          "id": "balayage_kratka",
+          "name": "Balayage - kratka kosa",
+          "duration": 120,
+          "price": 9000,
+          "keywords": ["balayage", "baljaž", "balajaž", "kratka"]
+        },
+        {
+          "id": "balayage_duga",
+          "name": "Balayage - duga kosa",
+          "duration": 180,
+          "price": 10000,
+          "keywords": ["balayage", "baljaž", "balajaž", "duga"]
+        }
+      ]
+    },
+    {
+      "name": "Frizure i nega kose",
+      "services": [
+        {
+          "id": "svecana_frizura",
+          "name": "Svečana frizura",
+          "duration": 60,
+          "price": 2000,
+          "keywords": ["svečana", "frizura", "svecana", "proslava"]
+        },
+        {
+          "id": "svecana_lokne",
+          "name": "Svečana frizura - lokne",
+          "duration": 60,
+          "price": 2000,
+          "keywords": ["svečana", "lokne", "svecana", "kovrče"]
+        },
+        {
+          "id": "tretman_nege",
+          "name": "Tretman za negu kose + feniranje - sve dužine kose",
+          "duration": 60,
+          "price": 2000,
+          "keywords": ["tretman", "nega", "njega", "maska"]
+        },
+        {
+          "id": "keratin_kratka",
+          "name": "Keratinsko ispravljanje kose - kratka kosa",
+          "duration": 120,
+          "price": 7000,
+          "keywords": ["keratin", "ispravljanje", "kratka"]
+        },
+        {
+          "id": "keratin_duga",
+          "name": "Keratinsko ispravljanje kose - duga kosa",
+          "duration": 180,
+          "price": 10000,
+          "keywords": ["keratin", "ispravljanje", "duga"]
+        },
+        {
+          "id": "minival_kratka",
+          "name": "Minival - kratka kosa",
+          "duration": 120,
+          "price": 2500,
+          "keywords": ["minival", "mini", "val", "kratka"]
+        },
+        {
+          "id": "minival_srednja",
+          "name": "Minival - kosa srednje dužine",
+          "duration": 120,
+          "price": 3900,
+          "keywords": ["minival", "mini", "val", "srednja"]
+        },
+        {
+          "id": "minival_duga",
+          "name": "Minival - duga kosa",
+          "duration": 150,
+          "price": 6000,
+          "keywords": ["minival", "mini", "val", "duga"]
+        }
+      ]
+    },
+    {
+      "name": "Manikir i pedikir",
+      "services": [
+        {
+          "id": "trajni_lak_ruke",
+          "name": "Trajni lak - ruke",
+          "duration": 60,
+          "price": 2000,
+          "keywords": ["trajni lak", "manikir", "ruke", "gel lak"]
+        },
+        {
+          "id": "ojacavanje",
+          "name": "Ojačavanje prirodnih noktiju gelom",
+          "duration": 90,
+          "price": 2000,
+          "keywords": ["ojačavanje", "ojacavanje", "gel", "prirodni nokti"]
+        },
+        {
+          "id": "izlivanje_s",
+          "name": "Izlivanje noktiju gelom /dual tipse - S dužina",
+          "duration": 120,
+          "price": 2400,
+          "keywords": ["izlivanje", "veštački nokti", "vestacki", "gel", "tipse", "s dužina", "kratki"]
+        },
+        {
+          "id": "izlivanje_m",
+          "name": "Izlivanje noktiju gelom /dual tipse - M dužina",
+          "duration": 90,
+          "price": 2600,
+          "keywords": ["izlivanje", "veštački nokti", "vestacki", "gel", "tipse", "m dužina", "srednji"]
+        },
+        {
+          "id": "izlivanje_l",
+          "name": "Izlivanje noktiju gelom /dual tipse - L dužina",
+          "duration": 90,
+          "price": 2800,
+          "keywords": ["izlivanje", "veštački nokti", "vestacki", "gel", "tipse", "l dužina", "dugi"]
+        },
+        {
+          "id": "izlivanje_xl",
+          "name": "Izlivanje noktiju gelom /dual tipse - XL dužina",
+          "duration": 120,
+          "price": 3000,
+          "keywords": ["izlivanje", "veštački nokti", "vestacki", "gel", "tipse", "xl dužina", "extra dugi"]
+        },
+        {
+          "id": "izlivanje_xxl",
+          "name": "Izlivanje noktiju gelom /dual tipse - XXL dužina",
+          "duration": 120,
+          "price": 3200,
+          "keywords": ["izlivanje", "veštački nokti", "vestacki", "gel", "tipse", "xxl dužina", "ekstra dugi"]
+        },
+        {
+          "id": "korekcija_s",
+          "name": "Korekcija izlivanja noktiju gelom / dual tipse - S dužina",
+          "duration": 120,
+          "price": 2200,
+          "keywords": ["korekcija", "popravka", "s dužina"]
+        },
+        {
+          "id": "korekcija_m",
+          "name": "Korekcija izlivanja noktiju gelom / dual tipse - M dužina",
+          "duration": 120,
+          "price": 2400,
+          "keywords": ["korekcija", "popravka", "m dužina"]
+        },
+        {
+          "id": "korekcija_l",
+          "name": "Korekcija izlivanja noktiju gelom / dual tipse - L dužina",
+          "duration": 120,
+          "price": 2600,
+          "keywords": ["korekcija", "popravka", "l dužina"]
+        },
+        {
+          "id": "korekcija_xl",
+          "name": "Korekcija izlivanja noktiju gelom / dual tipse - XL dužina",
+          "duration": 120,
+          "price": 2800,
+          "keywords": ["korekcija", "popravka", "xl dužina"]
+        },
+        {
+          "id": "korekcija_xxl",
+          "name": "Korekcija izlivanja noktiju gelom / dual tipse - XXL dužina",
+          "duration": 120,
+          "price": 3000,
+          "keywords": ["korekcija", "popravka", "xxl dužina"]
+        },
+        {
+          "id": "korekcija_tudji",
+          "name": "Korekcija tuđeg rada / rekonstukcija nokta",
+          "duration": 30,
+          "price": 300,
+          "keywords": ["korekcija", "tuđi rad", "tudji", "rekonstrukcija"]
+        },
+        {
+          "id": "gradeni_french",
+          "name": "Građeni french",
+          "duration": 90,
+          "price": 4000,
+          "keywords": ["french", "frenc", "građeni", "gradjeni"]
+        },
+        {
+          "id": "skidanje_noktiju",
+          "name": "Skidanje noktiju",
+          "duration": 30,
+          "price": 500,
+          "keywords": ["skidanje", "uklanjanje", "nokti"]
+        },
+        {
+          "id": "popravka_nokat",
+          "name": "Popravka - 1 nokat",
+          "duration": 30,
+          "price": 300,
+          "keywords": ["popravka", "jedan nokat", "1 nokat"]
+        },
+        {
+          "id": "french_dizajn",
+          "name": "French / dizajn - dodatak uz uslugu",
+          "duration": 30,
+          "price": 250,
+          "keywords": ["french", "dizajn", "dodatak"]
+        },
+        {
+          "id": "estetski_pedikir",
+          "name": "Estetski pedikir sa profi diskom",
+          "duration": 60,
+          "price": 1800,
+          "keywords": ["pedikir", "pedicure", "estetski"]
+        },
+        {
+          "id": "pedikir_trajni",
+          "name": "Estetski pedikir + trajni lak",
+          "duration": 90,
+          "price": 2500,
+          "keywords": ["pedikir", "pedicure", "trajni lak", "noge"]
+        },
+        {
+          "id": "trajni_lak_noge",
+          "name": "Trajni lak - noge",
+          "duration": 45,
+          "price": 1800,
+          "keywords": ["trajni lak", "noge", "pedicure"]
+        },
+        {
+          "id": "colagen_pedikir",
+          "name": "Colagen spa pedikir",
+          "duration": 60,
+          "price": 2500,
+          "keywords": ["colagen", "spa", "pedikir", "kolagen"]
+        }
+      ]
+    },
+    {
+      "name": "Profesionalno šminkanje",
+      "services": [
+        {
+          "id": "sminkanje_trepavice",
+          "name": "Profesionalno šminkanje + veštačke trepavice",
+          "duration": 60,
+          "price": 3000,
+          "keywords": ["šminkanje", "sminkanje", "makeup", "trepavice"]
+        },
+        {
+          "id": "sminkanje_bez",
+          "name": "Profesionalno šminkanje - bez veštačkih trepavica",
+          "duration": 60,
+          "price": 2700,
+          "keywords": ["šminkanje", "sminkanje", "makeup", "bez trepavica"]
+        }
+      ]
+    },
+    {
+      "name": "Trepavice i obrve",
+      "services": [
+        {
+          "id": "korekcija_obrva",
+          "name": "Korekcija obrva voskom/pincetom - za dame",
+          "duration": 30,
+          "price": 500,
+          "keywords": ["obrve", "korekcija", "vosk", "pinceta"]
+        },
+        {
+          "id": "nadogradnja_1na1",
+          "name": "Nadogradnja svilenih trepavica - 1 na 1",
+          "duration": 120,
+          "price": 3200,
+          "keywords": ["nadogradnja", "trepavice", "1 na 1", "svilene"]
+        },
+        {
+          "id": "nadogradnja_hybrid",
+          "name": "Nadogradnja svilenih trepavica - hybrid Y",
+          "duration": 60,
+          "price": 3500,
+          "keywords": ["nadogradnja", "trepavice", "hybrid", "hibrid"]
+        },
+        {
+          "id": "nadogradnja_ruski",
+          "name": "Nadogradnja trepavica - ruski volumen",
+          "duration": 120,
+          "price": 4000,
+          "keywords": ["nadogradnja", "trepavice", "ruski", "volumen"]
+        },
+        {
+          "id": "nadogradnja_mega",
+          "name": "Nadogradnja trepavica - mega volumen",
+          "duration": 60,
+          "price": 4500,
+          "keywords": ["nadogradnja", "trepavice", "mega", "volumen"]
+        },
+        {
+          "id": "korekcija_1na1",
+          "name": "Korekcija nadogradnje svilenih trepavica 1 na 1 - do 4 nedelje",
+          "duration": 90,
+          "price": 2200,
+          "keywords": ["korekcija", "trepavice", "1 na 1", "popravka"]
+        },
+        {
+          "id": "korekcija_hybrid",
+          "name": "Korekcija nadogradnje svilenih trepavica hybrid Y - do 4 nedelje",
+          "duration": 60,
+          "price": 2500,
+          "keywords": ["korekcija", "trepavice", "hybrid", "popravka"]
+        },
+        {
+          "id": "korekcija_ruski",
+          "name": "Korekcija nadogradnje svilenih trepavica ruski volumen - do 4 nedelje",
+          "duration": 120,
+          "price": 3000,
+          "keywords": ["korekcija", "trepavice", "ruski", "popravka"]
+        },
+        {
+          "id": "korekcija_mega",
+          "name": "Korekcija nadogradnje svilenih trepavica mega volumen - do 4 nedelje",
+          "duration": 60,
+          "price": 3500,
+          "keywords": ["korekcija", "trepavice", "mega", "popravka"]
+        },
+        {
+          "id": "skidanje_trepavice",
+          "name": "Skidanje trepavica",
+          "duration": 30,
+          "price": 500,
+          "keywords": ["skidanje", "trepavice", "uklanjanje"]
+        },
+        {
+          "id": "lash_lift",
+          "name": "Lash lift",
+          "duration": 60,
+          "price": 1800,
+          "keywords": ["lash lift", "trepavice", "podizanje"]
+        },
+        {
+          "id": "brow_lift",
+          "name": "Brow lift",
+          "duration": 60,
+          "price": 1800,
+          "keywords": ["brow lift", "obrve", "podizanje"]
+        },
+        {
+          "id": "farbanje_obrva",
+          "name": "Farbanje obrva / trepavica",
+          "duration": 20,
+          "price": 500,
+          "keywords": ["farbanje", "obrve", "trepavice", "boja"]
+        },
+        {
+          "id": "lash_brow_lift",
+          "name": "Lash lift + Brow lift",
+          "duration": 120,
+          "price": 3200,
+          "keywords": ["lash lift", "brow lift", "combo", "podizanje"]
+        }
+      ]
+    },
+    {
+      "name": "Solarijum",
+      "services": [
+        {
+          "id": "solarijum",
+          "name": "Solarijum - 1 minut",
+          "duration": 1,
+          "price": 50,
+          "keywords": ["solarijum", "sunčanje", "suncanje", "tamnjenje"]
+        }
+      ]
+    }
+  ]
+}
